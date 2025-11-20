@@ -10,7 +10,7 @@ Original file is located at
 !pip install langchain-groq langchain-core python-dotenv
 
 import os
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "add_your_api_key"
 
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
